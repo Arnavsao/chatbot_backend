@@ -1,25 +1,25 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "server.js",
-        "use": "@vercel/node"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/api/(.*)",
-        "dest": "server.js"
-      }
-    ],
-    "env": {
-      "PORT": "3000",
-      "CLIENT_URL": "http://localhost:5173",
-      "MONGO": "mongodb+srv://pandeysaurabh9752:o3NekUF81Ju4tPwO@printer.dwu7y.mongodb.net/aichat",
-      "IMAGE_KIT_ENDPOINT": "https://ik.imagekit.io/ruk05znvk",
-      "IMAGE_KIT_PUBLIC_KEY": "public_/OLEEF6y6Zl9gx739n4N7EhV3wI=",
-      "IMAGE_KIT_PRIVATE_KEY": "private_/m/JWJLR3MiIL5/++f9VitR3RqE=",
-      "CLERK_PUBLISHABLE_KEY": "pk_test_bGVnaWJsZS1nZWNrby02My5jbGVyay5hY2NvdW50cy5kZXYk",
-      "CLERK_SECRET_KEY": "sk_test_lA3GBmysgYyKknNT8AlMqAQEZ6Cl2a0IA0nEJYVknq"
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
     }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "server.js"
+    }
+  ],
+  "env": {
+    "PORT": "3000",
+    "CLIENT_URL": "http://localhost:5173",
+    "MONGO": "mongodb+srv://pandeysaurabh9752:o3NekUF81Ju4tPwO@printer.dwu7y.mongodb.net/aichat",
+    "IMAGE_KIT_ENDPOINT": "https://ik.imagekit.io/ruk05znvk",
+    "IMAGE_KIT_PUBLIC_KEY": "public_/OLEEF6y6Zl9gx739n4N7EhV3wI=",
+    "IMAGE_KIT_PRIVATE_KEY": "private_/m/JWJLR3MiIL5/++f9VitR3RqE=",
+    "CLERK_PUBLISHABLE_KEY": "pk_test_bGVnaWJsZS1nZWNrby02My5jbGVyay5hY2NvdW50cy5kZXYk",
+    "CLERK_SECRET_KEY": "sk_test_lA3GBmysgYyKknNT8AlMqAQEZ6Cl2a0IA0nEJYVknq"
   }
+}
